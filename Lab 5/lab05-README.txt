@@ -1,0 +1,5 @@
+The scripts in Lab 05 are based on the #22 A Reminder Utility and #26 Keeping Track of Events sections of Wicked Cool Shell Scripts by Dave Taylor.
+
+The Reminder Utility uses the remember script to create reminders and store them in a text file (which it will create in the event that said file doesn't exist), and use the remindme script to display the reminders to the user by referencing those stored in the text file used by the remember script.
+
+The Agenda Utility (#26 Keeping Track of Events) works similarly, with addagenda adding agenda elements to a file, and agenda reading elements from that file. However, where the Agenda Utility differs is that agenda elements are assigned an associated date, and the agenda script only returns elements from the file matching the data inputted by the user.
